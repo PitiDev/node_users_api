@@ -1,10 +1,10 @@
 var mysql = require('mysql');
 var connection  = mysql.createPool({
   connectionLimit : 10000,
-  host            : 'localhost',
-  user            : 'root',
-  password        : '',
+  host            : 'sql351.main-hosting.eu',
+  user            : 'u295847955_infrasole_hr',
+  password        : 'P@r97778968',
   port            : 3306,
-  database        : 'app_flutter',
+  database        : 'u295847955_infrasole_hr',
 });
 module.exports = connection;
